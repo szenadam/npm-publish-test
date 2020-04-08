@@ -6,4 +6,8 @@ function sub(a, b) {
     return a - b;
 }
 
-module.exports = { add, sub };
+function multi(a, b) {
+    return a * b;
+}
+
+module.exports = { add, sub, multi };
