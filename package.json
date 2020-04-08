@@ -1,12 +1,23 @@
 {
   "name": "@szenadam/npm-publish-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test libary for npm publish",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szenadam/npm-publish-test.git"
+  },
+  "keywords": [
+    "test", "npm", "publish"
+  ],
+  "homepage": "https://github.com/szenadam/npm-publish-test",
+  "author": "szenadam",
+  "bugs": {
+    "email": "szenadam1@gmail.com",
+    "url": "https://github.com/szenadam/npm-publish-test/issues"
+  },
   "license": "ISC"
 }
