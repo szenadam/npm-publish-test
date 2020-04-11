@@ -13,4 +13,9 @@ function multi(a, b) {
   return a * b;
 }
 
-module.exports = { add, sub, multi };
+function div(a, b) {
+  console.log("foobar");
+  return a / b;
+}
+
+module.exports = { add, sub, multi, div };
