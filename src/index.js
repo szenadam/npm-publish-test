@@ -18,4 +18,9 @@ function div(a, b) {
   return a / b;
 }
 
-module.exports = { add, sub, multi, div };
+function mod(a, b) {
+  console.log("foobaz");
+  return a % b;
+}
+
+module.exports = { add, sub, multi, div, mod };
