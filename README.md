@@ -22,6 +22,8 @@ Publish package and point `foo` tag to it:
 npm publish --tag foo
 ```
 
+This will not update the default `latest` tag.
+
 ## NPM Tagging
 
 Create/Modify `foo` tag to point to `x.y.z` package version:
