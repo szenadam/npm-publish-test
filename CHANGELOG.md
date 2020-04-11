@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.3.0
+
+- Add "mod" function
+
 ## v1.2.0
 
 - Add "multi" and "div" functions

@@ -1,6 +1,6 @@
 {
   "name": "@szenadam/npm-publish-test",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Test libary for npm publish",
   "main": "src/index.js",
   "scripts": {
