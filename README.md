@@ -16,13 +16,18 @@ Publish a scoped package for the first time:
 npm publish --access public
 ```
 
-Publish package and point `foo` tag to it:
+Publish package and point `foo` tag to it (note: this will not update the
+default `latest` tag.):
 
 ```sh
 npm publish --tag foo
 ```
 
-This will not update the default `latest` tag.
+List published versions for package:
+
+```sh
+npm view @szenadam/npm-publish-test versions --json
+```
 
 ## NPM Tagging
 
