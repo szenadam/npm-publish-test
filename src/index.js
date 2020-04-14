@@ -28,7 +28,7 @@ function pow(a) {
 }
 
 function random() {
-  return Math.random();
+  return Math.random() * 100;
 }
 
 module.exports = { add, sub, multi, div, mod, pow, random };
