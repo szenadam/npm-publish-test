@@ -23,4 +23,8 @@ function mod(a, b) {
   return a % b;
 }
 
-module.exports = { add, sub, multi, div, mod };
+function pow(a) {
+  return a * a;
+}
+
+module.exports = { add, sub, multi, div, mod, pow };
