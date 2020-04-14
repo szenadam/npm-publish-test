@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.4.0
+
+- Add "pow" function
+
 ## v1.3.0
 
 - Add "mod" function
