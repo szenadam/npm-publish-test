@@ -27,4 +27,8 @@ function pow(a) {
   return a * a;
 }
 
-module.exports = { add, sub, multi, div, mod, pow };
+function random() {
+  return Math.random();
+}
+
+module.exports = { add, sub, multi, div, mod, pow, random };
